@@ -5746,11 +5746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\MyCalculator.csproj",
+      "projectUniqueName": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\MyCalculator\\MyCalculator.csproj",
       "projectName": "MyCalculator",
-      "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\MyCalculator.csproj",
+      "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\MyCalculator\\MyCalculator.csproj",
       "packagesPath": "C:\\Users\\sjgow\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\obj\\",
+      "outputPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\MyCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5769,8 +5769,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj": {
-              "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj"
+            "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj": {
+              "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj"
             }
           }
         }

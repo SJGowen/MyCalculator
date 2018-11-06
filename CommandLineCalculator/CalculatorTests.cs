@@ -36,5 +36,17 @@ namespace CommandLineCalculator
             var result = calc.Calculate(equation);
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        [DataRow("-46", "-23+-23")]
+        [DataRow("0", "-23+23")]
+        [DataRow("4", "-24/-6")]
+        [DataRow("-4", "24/-6")]
+        public void CalulationsWithNegativeNumbersTests(string expectedResult, string equation)
+        {
+            var calc = new Calculator();
+            var result = calc.Calculate(equation);
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }

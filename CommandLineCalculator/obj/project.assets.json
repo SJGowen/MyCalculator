@@ -5729,11 +5729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj",
+      "projectUniqueName": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj",
       "projectName": "CommandLineCalculator",
-      "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj",
+      "projectPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\CommandLineCalculator\\CommandLineCalculator.csproj",
       "packagesPath": "C:\\Users\\sjgow\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\CommandLineCalculator\\obj\\",
+      "outputPath": "C:\\Dev\\CSharp\\ProductiveCSharp\\CommandLineCalculator\\MyCalculator\\CommandLineCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

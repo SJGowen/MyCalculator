@@ -46,9 +46,15 @@ namespace CommandLineCalculator
             var number = string.Empty;
             try
             {
+                var posInEquation = 0;
+                var operationPos = -1;
                 foreach (var character in equation)
                 {
-                    if (char.IsNumber(character)) number += character;
+                    if (char.IsNumber(character) ||
+                        number == string.Empty && character == '-' && posInEquation - 1 == operationPos)
+                    {
+                        number += character;
+                    }
                     else
                     {
                         result = PerformOperation(result, operation, number);
@@ -60,12 +66,16 @@ namespace CommandLineCalculator
                             case '*':
                             case '/':
                             case '%':
+                                if (posInEquation - 1 == operationPos) return "Invalid operation.";
                                 operation = character.ToString();
+                                operationPos = posInEquation;
                                 break;
                             default:
                                 return "Invalid operation.";
                         }
                     }
+
+                    posInEquation += 1;
                 }
 
                 result = PerformOperation(result, operation, number);
