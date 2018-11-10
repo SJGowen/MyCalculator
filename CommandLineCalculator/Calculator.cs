@@ -32,16 +32,17 @@ namespace CommandLineCalculator
                 var equationIndex = 0;
                 foreach (var character in equation)
                 {
-                    if (character == '(')
+                    switch (character)
                     {
-                        startIndex = equationIndex + 1;
-                        length = 0;
+                        case '(':
+                            startIndex = equationIndex + 1;
+                            length = 0;
+                            break;
+                        case ')' when length == 0:
+                            length = equationIndex - startIndex;
+                            break;
                     }
 
-                    if (character == ')' && length == 0)
-                    {
-                        length = equationIndex - startIndex;
-                    }
                     equationIndex += 1;
                 }
 
@@ -60,10 +61,10 @@ namespace CommandLineCalculator
         {
             if (equation.Length == 0) return string.Empty;
             var result = 0;
-            var operation = string.Empty;
-            var number = string.Empty;
             try
             {
+                var operation = string.Empty;
+                var number = string.Empty;
                 var equationIndex = 0;
                 var operationIndex = -1;
                 foreach (var character in equation)
