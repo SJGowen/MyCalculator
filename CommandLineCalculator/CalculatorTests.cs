@@ -30,7 +30,7 @@ namespace CommandLineCalculator
         [DataRow("3", "1+5-(6/2)")]
         [DataRow("6", "10+5-((6/2)*(6/2))")]
         [DataRow("36", "10+5-(6/2)*(6/2)")]
-        public void CalulationsWithBracketsTests(string expectedResult, string equation)
+        public void CalculationsWithBracketsTests(string expectedResult, string equation)
         {
             var calc = new Calculator();
             var result = calc.Calculate(equation);
@@ -42,7 +42,7 @@ namespace CommandLineCalculator
         [DataRow("0", "-23+23")]
         [DataRow("4", "-24/-6")]
         [DataRow("-4", "24/-6")]
-        public void CalulationsWithNegativeNumbersTests(string expectedResult, string equation)
+        public void CalculationsWithNegativeNumbersTests(string expectedResult, string equation)
         {
             var calc = new Calculator();
             var result = calc.Calculate(equation);
@@ -54,7 +54,7 @@ namespace CommandLineCalculator
         [DataRow("Invalid operation ($).", "-23$23")]
         [DataRow("Invalid operation (/).", "-24//6")]
         [DataRow("Invalid expression.", "1+(24/-6))")]
-        public void CalulationsWithErrorsTests(string expectedResult, string equation)
+        public void CalculationsWithErrorsTests(string expectedResult, string equation)
         {
             var calc = new Calculator();
             var result = calc.Calculate(equation);
