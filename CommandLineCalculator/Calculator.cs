@@ -13,41 +13,41 @@ namespace CommandLineCalculator
             return LeftToRightCalculate(equation);
         }
 
-        private static string RemoveSpaces(string equation)
+        private string RemoveSpaces(string equation)
         {
             return equation.Replace(" ", string.Empty);
         }
 
-        private static bool ParenthesisIsBalanced(string equation)
+        private bool ParenthesisIsBalanced(string equation)
         {
             return equation.Count(x => x == '(') == equation.Count(x => x == ')');
         }
 
-        private static string EvaluateParenthisedPiecesOfEquation(string equation)
+        private string EvaluateParenthisedPiecesOfEquation(string equation)
         {
             while (equation.Contains("("))
             {
-                var startPosition = 0;
                 var length = 0;
-                var equationPosition = 0;
+                var startIndex = 0;
+                var equationIndex = 0;
                 foreach (var character in equation)
                 {
                     if (character == '(')
                     {
-                        startPosition = equationPosition + 1;
+                        startIndex = equationIndex + 1;
                         length = 0;
                     }
 
                     if (character == ')' && length == 0)
                     {
-                        length = equationPosition - startPosition;
+                        length = equationIndex - startIndex;
                     }
-                    equationPosition += 1;
+                    equationIndex += 1;
                 }
 
                 if (length > 0)
                 {
-                    var subEquation = equation.Substring(startPosition, length);
+                    var subEquation = equation.Substring(startIndex, length);
                     var result = LeftToRightCalculate(subEquation);
                     equation = equation.Replace("(" + subEquation + ")", result);
                 }
@@ -56,7 +56,7 @@ namespace CommandLineCalculator
             return equation;
         }
 
-        private static string LeftToRightCalculate(string equation)
+        private string LeftToRightCalculate(string equation)
         {
             if (equation.Length == 0) return string.Empty;
             var result = 0;
@@ -64,11 +64,11 @@ namespace CommandLineCalculator
             var number = string.Empty;
             try
             {
-                var equationPosition = 0;
-                var operationPosition = -1;
+                var equationIndex = 0;
+                var operationIndex = -1;
                 foreach (var character in equation)
                 {
-                    if (CharacterIsNumber(number, equationPosition, operationPosition, character))
+                    if (CharacterIsNumber(number, equationIndex, operationIndex, character))
                     {
                         number += character;
                     }
@@ -76,12 +76,12 @@ namespace CommandLineCalculator
                     {
                         if (!string.IsNullOrEmpty(number)) result = PerformOperation(result, operation, number);
                         operation = character.ToString();
-                        if (ConsecutiveOperators(equationPosition, operationPosition)) return $"Invalid operation ({operation}).";
-                        operationPosition = equationPosition;
+                        if (ConsecutiveOperators(equationIndex, operationIndex)) return $"Invalid operation ({operation}).";
+                        operationIndex = equationIndex;
                         number = string.Empty;
                     }
 
-                    equationPosition += 1;
+                    equationIndex += 1;
                 }
 
                 result = PerformOperation(result, operation, number);
@@ -97,17 +97,17 @@ namespace CommandLineCalculator
             return $"{result}";
         }
 
-        private static bool CharacterIsNumber(string number, int equationPosition, int operationPosition, char character)
+        private bool CharacterIsNumber(string number, int equationIndex, int operationIndex, char character)
         {
-            return char.IsNumber(character) || number == string.Empty && character == '-' && equationPosition - 1 == operationPosition;
+            return char.IsNumber(character) || number == string.Empty && character == '-' && equationIndex - 1 == operationIndex;
         }
 
-        private static bool ConsecutiveOperators(int equationPosition, int operationPosition)
+        private bool ConsecutiveOperators(int equationIndex, int operationIndex)
         {
-            return equationPosition - 1 == operationPosition;
+            return equationIndex - 1 == operationIndex;
         }
 
-        private static int PerformOperation(int subResult, string operation, string stringNumber)
+        private int PerformOperation(int subResult, string operation, string stringNumber)
         {
             if (string.IsNullOrEmpty(operation)) return int.Parse(stringNumber);
             switch (operation)
