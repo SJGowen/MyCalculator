@@ -20,9 +20,9 @@ C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCal
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.runtimeconfig.dev.json
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.pdb
-C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csprojAssemblyReference.cache
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csproj.CoreCompileInputs.cache
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.AssemblyInfoInputs.cache
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.AssemblyInfo.cs
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.pdb
+C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csprojAssemblyReference.cache

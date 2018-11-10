@@ -48,5 +48,17 @@ namespace CommandLineCalculator
             var result = calc.Calculate(equation);
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        [DataRow("Invalid operation (&).", "-23+&23")]
+        [DataRow("Invalid operation ($).", "-23$23")]
+        [DataRow("Invalid operation (/).", "-24//6")]
+        [DataRow("Invalid expression.", "1+(24/-6))")]
+        public void CalulationsWithErrorsTests(string expectedResult, string equation)
+        {
+            var calc = new Calculator();
+            var result = calc.Calculate(equation);
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }

@@ -15,6 +15,10 @@ C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\obj\Debug\netc
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csproj.CopyComplete
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.pdb
+C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csprojAssemblyReference.cache
+C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.AssemblyInfoInputs.cache
+C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.AssemblyInfo.cs
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -25,10 +29,6 @@ C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\b
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\MyCalculator.pdb
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.pdb
-C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csprojAssemblyReference.cache
-C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csproj.CoreCompileInputs.cache
-C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.AssemblyInfoInputs.cache
-C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.AssemblyInfo.cs
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.csproj.CopyComplete
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\MyCalculator\obj\Debug\netcoreapp2.1\MyCalculator.pdb
