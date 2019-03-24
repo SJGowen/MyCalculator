@@ -26,3 +26,17 @@ C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCal
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.dll
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.pdb
 C:\Dev\CSharp\ProductiveCSharp\CommandLineCalculator\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csprojAssemblyReference.cache
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.deps.json
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.runtimeconfig.json
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.runtimeconfig.dev.json
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.dll
+C:\Dev\C#\MyCalculator\CommandLineCalculator\bin\Debug\netcoreapp2.1\CommandLineCalculator.pdb
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csprojAssemblyReference.cache
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.csproj.CoreCompileInputs.cache
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.AssemblyInfoInputs.cache
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.AssemblyInfo.cs
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.dll
+C:\Dev\C#\MyCalculator\CommandLineCalculator\obj\Debug\netcoreapp2.1\CommandLineCalculator.pdb
